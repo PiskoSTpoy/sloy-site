@@ -17,7 +17,7 @@
       "generator": "Kling AI, model Video 3.0, 1080p, 5s, 16:9, no native audio",
       "prompt": "Slow cinematic orbit around a freshly 3D-printed matte cream vase-shaped object standing on a dark round build plate, fine horizontal layer lines visible on its surface, warm rim light from one side, cool light from the other, dark studio background, shallow depth of field, realistic, no text, no watermark, no logo, no people",
       "candidates_generated": 1,
-      "usage": "Постер геройского блока (fallback без WebGL) + фоновый ролик в CTA-секции перед формой",
+      "usage": "БОЛЬШЕ НЕ ИСПОЛЬЗУЕТСЯ (снят с CTA-секции 18.09 — заменён на честное real-sneaker, юзер попросил убрать видимую AI-плашку рядом с формой). Файлы оставлены в репозитории, но нигде в index.html не подключены.",
       "files": ["vase-orbit.webm", "vase-orbit.mp4", "vase-orbit-poster.jpg"],
       "schema_org_VideoObject": false
     },
@@ -25,7 +25,7 @@
       "id": "real-sneaker",
       "kind": "real-footage",
       "source": "Downloads/Кроссовки,_напечатанные_на_3D_принтере.mp4 (предоставлено пользователем)",
-      "usage": "Галерея — честный пример реальной печати (подошва кроссовка), помечен как реальные кадры",
+      "usage": "Галерея (полная подпись) + CTA-секция перед формой заявки (18.09, фоновый ролик вместо AI-вазы — честное видео не нуждается в AI-плашке, поэтому в CTA идёт без подписи)",
       "files": ["real-sneaker.webm", "real-sneaker.mp4"],
       "schema_org_VideoObject": true
     }
