@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+# Статический сайт без сборки — просто собираем нужные файлы в staging/
+# и публикуем через официальный экшен Pages. _tools/ (там .env с ключом
+# Kling AI API) сюда намеренно НЕ попадает — копируем по именам, не всей
+# папкой, тот же принцип, что и в .gitlab-ci.yml.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Собрать staging-папку
+        run: |
+          mkdir -p staging
+          cp -r index.html css js img video favicon.ico robots.txt sitemap.xml staging/
+          echo "sloy-print.ru" > staging/CNAME
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: staging
+      - id: deployment
+        uses: actions/deploy-pages@v4
