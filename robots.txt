@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sloy-print.ru/sitemap.xml

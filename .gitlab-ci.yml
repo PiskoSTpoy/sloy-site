@@ -6,7 +6,7 @@ pages:
   stage: deploy
   script:
     - mkdir -p public
-    - cp -r index.html css js img video favicon.ico public/
+    - cp -r index.html css js img video favicon.ico robots.txt sitemap.xml public/
   artifacts:
     paths:
       - public
