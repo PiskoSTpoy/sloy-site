@@ -1,0 +1,134 @@
+{
+  "note": "AI-иллюстрации возможностей — не фото реально выполненных заказов конкретного клиента. Настоящие фото готовых заказов — в разделе #gallery, отмечены отдельно.",
+  "assets": [
+    {
+      "id": "work-bumper",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal product photo of a matte black 3D-printed automotive bumper trim bracket and mounting clip lying on a clean workbench next to a caliper and a spool of filament, visible fine horizontal layer lines, neutral studio lighting, shallow depth of field, realistic photography, no text, no watermark, no logos, no people, no faces",
+      "usage": "Секция #top (hero) — витрина возможностей, широкая плитка бенто-сетки",
+      "files": ["work-bumper.webp"]
+    },
+    {
+      "id": "work-figurines",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal macro product photo of four hand-painted 3D-printed tabletop fantasy miniature figurines of different sizes standing in a row on a dark wooden table, detailed paintwork, warm dramatic studio lighting, shallow depth of field, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей",
+      "files": ["work-figurines.webp"]
+    },
+    {
+      "id": "work-drone",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal close-up product photo of a white 3D-printed plastic drone frame arm with mounting holes, resting on a dark grey workbench next to small screws, cool studio lighting, shallow depth of field, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей",
+      "files": ["work-drone.webp"]
+    },
+    {
+      "id": "work-organizer",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal product photo of a modern minimalist 3D-printed desk organizer and pen holder in matte terracotta orange plastic on a wooden desk near a laptop, soft natural window light, shallow depth of field, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей",
+      "files": ["work-organizer.webp"]
+    },
+    {
+      "id": "work-jewelry",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal macro product photo of a 3D-printed resin jewelry ring master model in matte grey resin, standing upright on a small stand on a dark velvet surface, fine sharp detail, soft studio lighting, shallow depth of field, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 добавление",
+      "files": ["work-jewelry.webp"]
+    },
+    {
+      "id": "work-phonestand",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal product photo of a matte white 3D-printed phone stand holding a smartphone on a wooden desk, soft natural light, shallow depth of field, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 добавление",
+      "files": ["work-phonestand.webp"]
+    },
+    {
+      "id": "work-architecture",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal product photo of a detailed 3D-printed white architectural scale model of a modern building on a plain base, studio lighting, shallow depth of field, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 добавление",
+      "files": ["work-architecture.webp"]
+    },
+    {
+      "id": "work-rccar",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal product photo of a matte blue 3D-printed RC car body panel with mounting holes lying on a workbench next to small tools, cool studio lighting, shallow depth of field, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 добавление",
+      "files": ["work-rccar.webp"]
+    },
+    {
+      "id": "work-chess",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal product photo of a modern geometric 3D-printed chess set, black and white pieces, on a minimalist board, soft studio lighting, shallow depth of field, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 добавление",
+      "files": ["work-chess.webp"]
+    },
+    {
+      "id": "work-picks",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal macro product photo of several colorful 3D-printed guitar picks scattered on a wooden table next to an acoustic guitar, warm natural light, shallow depth of field, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 добавление",
+      "files": ["work-picks.webp"]
+    },
+    {
+      "id": "work-planter",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal vertical product photo of a tall minimalist 3D-printed planter pot in matte sage green with a small succulent plant, standing on a sunny windowsill, soft daylight, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 второе добавление (портретная плитка масонри-сетки)",
+      "files": ["work-planter.webp"]
+    },
+    {
+      "id": "work-trophy",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal product photo of a modern geometric 3D-printed trophy award in matte gold plastic standing on a wooden shelf, dramatic side lighting, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 второе добавление (портретная плитка)",
+      "files": ["work-trophy.webp"]
+    },
+    {
+      "id": "work-skateboard",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal wide product photo of a custom 3D-printed fingerboard skateboard deck with trucks and wheels on a wooden table, realistic photography, natural light, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 второе добавление (широкая плитка)",
+      "files": ["work-skateboard.webp"]
+    },
+    {
+      "id": "work-sunglasses",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal close-up product photo of a pair of 3D-printed sunglasses frames in matte black plastic on a light surface, soft studio lighting, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 второе добавление (широкая плитка)",
+      "files": ["work-sunglasses.webp"]
+    },
+    {
+      "id": "work-cookiecutters",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0, 2K",
+      "prompt": "Photoreal top-down product photo of a small stack of 3D-printed cookie cutters in different geometric shapes on a light kitchen countertop, soft natural light, realistic photography, no text, no watermark, no logos, no people",
+      "usage": "Секция #top (hero) — витрина возможностей, 10.09 второе добавление (квадратная плитка)",
+      "files": ["work-cookiecutters.webp"]
+    },
+    {
+      "id": "work-bizsculpture",
+      "kind": "ai-generated",
+      "generator": "Kling AI, model Image 3.0 (Photoreal), 2K",
+      "prompt": "Photoreal product photo of a large human-scale 3D-printed abstract geometric decorative sculpture standing on the floor of a modern minimalist business lobby, matte white and orange plastic panels, warm architectural lighting, wide shot showing the whole object and the room, realistic photography, no text, no watermark, no logos, no people, no faces",
+      "usage": "Секция #business — визуализация масштаба крупноформатного объекта, 10.09 третье добавление. НЕ фото реального выполненного заказа — на странице явно подписано как визуализация (.biz__visualnote), в отличие от честных фото в #gallery.",
+      "files": ["work-bizsculpture.webp"]
+    }
+  ],
+  "postprocessing": "Watermark KlingAI 3.0 (нижний правый угол исходников) удалён клон-штампом с растушёванной маской перед кадрированием — см. Downloads/sloy/_tools/scratch в момент обработки 09.09 и 10.09.2026. 10.09 второе добавление: исходники сгенерированы 16:9 (Kling не сохранял выбор соотношения сторон между генерациями в этой сессии), кадрирование под квадрат/портрет/ландшафт сделано вручную под каждый сюжет — отсюда честная вариативность форм плиток в masonry-сетке."
+}

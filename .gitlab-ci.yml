@@ -1,0 +1,14 @@
+# GitLab Pages — статический сайт без сборки, задача просто раскладывает
+# нужные папки в public/ (это единственное место, откуда Pages отдаёт файлы).
+# _tools/ сюда осознанно не попадает — там лежит .env с рабочим ключом
+# Kling AI API, ему нельзя быть даже в публикуемом артефакте, не то что в репо.
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - cp -r index.html css js img video favicon.ico public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

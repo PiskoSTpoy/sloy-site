@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>СЛОЙ — 3D-печать любых вещей на заказ</title>
+<meta name="description" content="Печатаем на заказ детали, макеты, сувениры и оснастку методами FDM и SLA. Честная цена по калькулятору, срок от 2 дней, доставка по России.">
+<meta name="theme-color" content="#F6F7F3">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="/img/hero-poster.jpg" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"СЛОЙ","description":"Студия 3D-печати на заказ, FDM и SLA","areaServed":"RU"}
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main">К содержанию</a>
+
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="hdr__brand" href="#top">
+      <img src="img/logo-mark.svg" alt="" aria-hidden="true">
+      <span>СЛОЙ</span>
+    </a>
+    <nav class="hdr__nav">
+      <a href="#process">Процесс</a>
+      <a href="#materials">Материалы</a>
+      <a href="#calc">Смета</a>
+      <a href="#business">Бизнесу</a>
+      <a href="#gallery">Работы</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="hdr__cta" href="#calc">Рассчитать</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ══════════════════════════ HERO ══════════════════════════ -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero__copy">
+      <p class="tag">Студия 3D-печати на заказ</p>
+      <h1 class="h1">Печатаем <span class="mark-acc">любые вещи</span> —<br>от автозапчасти до фигурки</h1>
+      <p class="sub">Слой за слоем, из цифрового файла в физический предмет. FDM и SLA, 30+ материалов, по всей России.</p>
+      <div class="hero__actions">
+        <a class="btn btn--fill" href="#calc">Посчитать смету →</a>
+        <a class="btn btn--line" href="#process">Как это работает</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- full-bleed — breaks out of .wrap deliberately, so the photo wall gets the
+       whole viewport width instead of being squeezed into the centered column -->
+  <div class="hero__band">
+    <div class="hero__proof" aria-label="Примеры того, что можно напечатать">
+      <figure class="proof">
+        <img src="img/work-bumper.webp" alt="3D-печатная накладка автомобильного бампера рядом со штангенциркулем на верстаке" loading="eager" fetchpriority="high">
+        <figcaption>Накладка бампера, авто</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-figurines.webp" alt="Раскрашенные настольные миниатюрные фигурки, напечатанные на 3D-принтере" loading="lazy">
+        <figcaption>Фигурки, миниатюры</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-planter.webp" alt="Напечатанный на 3D-принтере минималистичный кашпо для суккулента на подоконнике" loading="lazy">
+        <figcaption>Кашпо, предметы интерьера</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-drone.webp" alt="Напечатанная на 3D-принтере деталь рамы дрона с крепёжными отверстиями" loading="lazy">
+        <figcaption>Детали дронов, механика</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-trophy.webp" alt="Наградной кубок геометрической формы, напечатанный на 3D-принтере" loading="lazy">
+        <figcaption>Награды, кубки</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-organizer.webp" alt="Напечатанный на 3D-принтере настольный органайзер с подставкой для ручек" loading="lazy">
+        <figcaption>Предметы интерьера</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-skateboard.webp" alt="Гравированный деревянный скейт-фингерборд с напечатанными на 3D-принтере деталями" loading="lazy">
+        <figcaption>Хобби, спортинвентарь</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-jewelry.webp" alt="Мастер-модель ювелирного кольца, напечатанная на 3D-принтере из фотополимерной смолы" loading="lazy">
+        <figcaption>Ювелирные мастер-модели</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-phonestand.webp" alt="Напечатанная на 3D-принтере подставка для телефона" loading="lazy">
+        <figcaption>Аксессуары для дома</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-architecture.webp" alt="Архитектурный макет здания, напечатанный на 3D-принтере" loading="lazy">
+        <figcaption>Архитектурные макеты</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-sunglasses.webp" alt="Оправа солнцезащитных очков, напечатанная на 3D-принтере" loading="lazy">
+        <figcaption>Аксессуары, очки</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-rccar.webp" alt="Напечатанная на 3D-принтере деталь кузова радиоуправляемой машинки" loading="lazy">
+        <figcaption>Хобби, RC-модели</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-cookiecutters.webp" alt="Формочки для печенья, напечатанные на 3D-принтере" loading="lazy">
+        <figcaption>Кухонные мелочи</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-chess.webp" alt="Геометрический шахматный набор, напечатанный на 3D-принтере" loading="lazy">
+        <figcaption>Настольные игры</figcaption>
+      </figure>
+      <figure class="proof">
+        <img src="img/work-picks.webp" alt="Разноцветные медиаторы для гитары, напечатанные на 3D-принтере" loading="lazy">
+        <figcaption>Мелкие аксессуары</figcaption>
+      </figure>
+    </div>
+    <p class="hero__proofnote wrap">Визуализация возможностей — то, что можем напечатать. Настоящие фото готовых заказов клиентов — в разделе «Работы» ниже.</p>
+  </div>
+
+  <button class="scrollcue" id="scrollCue" aria-label="Прокрутить вниз"><span></span></button>
+</section>
+
+<!-- ══════════════════════════ PROCESS (3 шага) ══════════════════════════ -->
+<section class="section" id="process">
+  <div class="wrap">
+    <p class="tag">Как это работает</p>
+    <h2 class="h2">Три шага от файла до вещи в руках</h2>
+    <ol class="steps">
+      <li class="step">
+        <div class="step__top">
+          <span class="step__n">01</span>
+          <span class="step__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v10M12 3l-4 4M12 3l4 4"/><path d="M4 15v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg></span>
+        </div>
+        <h3>Присылаете файл или эскиз</h3>
+        <p>STL, OBJ, STEP — подойдёт любой формат 3D-модели. Готовой модели нет? Пришлите чертёж, фото или просто описание — поможем оцифровать за отдельную смету.</p>
+      </li>
+      <li class="step">
+        <div class="step__top">
+          <span class="step__n">02</span>
+          <span class="step__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="4" y="9" width="16" height="8" rx="1"/><path d="M6 17v4h12v-4"/></svg></span>
+        </div>
+        <h3>Считаем допуски и печатаем</h3>
+        <p>Подбираем технологию и материал, присылаем точную смету и срок до старта печати — без «а потом досчитаем». Печатаем и проверяем размеры перед отправкой.</p>
+      </li>
+      <li class="step">
+        <div class="step__top">
+          <span class="step__n">03</span>
+          <span class="step__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></span>
+        </div>
+        <h3>Забираете или получаем доставку</h3>
+        <p>Самовывоз по договорённости или отправка СДЭК/Почтой России по всей стране. Для тиража — упаковка партией.</p>
+      </li>
+    </ol>
+
+    <a class="steps__cta btn btn--fill" href="#contact">Прислать файл — оформить заказ →</a>
+
+    <div class="livedemo">
+      <div class="livedemo__copy">
+        <p class="tag">Не рендер — реальная механика</p>
+        <h3>Вот как это выглядит слой за слоем</h3>
+        <p>Ниже — настоящая процедурная 3D-модель в браузере (WebGL), а не заранее записанное видео: объект печатается на ваших глазах снизу вверх, слой за слоем. Кликните, чтобы запустить печать заново.</p>
+      </div>
+      <div class="livedemo__stage">
+        <canvas id="gl" class="livedemo__gl" aria-hidden="true"></canvas>
+        <img class="livedemo__fallback" id="demoFallback" src="img/hero-poster.jpg" alt="" aria-hidden="true" hidden>
+        <p class="livedemo__hint" id="demoHint">печатается… можно повернуть</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ ПРОЦЕСС ПЕЧАТИ / ВИДЕО ══════════════════════════ -->
+<section class="reel" id="reel">
+  <video class="reel__video" id="reelVideo" poster="video/print-macro-poster.jpg" width="1920" height="1080"
+         muted loop playsinline preload="none" aria-hidden="true">
+    <source src="video/print-macro.webm" type="video/webm">
+    <source src="video/print-macro.mp4" type="video/mp4">
+  </video>
+  <div class="reel__shade" aria-hidden="true"></div>
+  <div class="wrap reel__content">
+    <p class="tag tag--light">0.2 мм за раз</p>
+    <h2 class="h2 h2--light">Толщина одного слоя — доля миллиметра. Из них строится вещь.</h2>
+    <p class="reel__lead">Сопло разогревает пластик до 200–250 °C и укладывает его нитью тоньше человеческого волоса в сотнях слоёв подряд. Никакой магии — только точная механика и терпение.</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════ МАТЕРИАЛЫ ══════════════════════════ -->
+<section class="section section--sunk" id="materials">
+  <div class="wrap">
+    <p class="tag">Витрина материалов</p>
+    <h2 class="h2">6 из 30+ — то, что берут чаще всего</h2>
+    <p class="section__lead">Честные характеристики, без «напечатаем всё что угодно за час». Полный список материалов — при расчёте.</p>
+
+    <div class="mats">
+      <article class="mat">
+        <p class="mat__tech">FDM</p>
+        <h3>PLA</h3>
+        <p class="mat__use">Сувениры, макеты, декор, прототипы внешнего вида</p>
+        <ul class="mat__spec">
+          <li><span>Жёсткость</span><i style="--v:60%"></i></li>
+          <li><span>Термостойкость</span><i style="--v:30%"></i></li>
+          <li><span>Детализация</span><i style="--v:75%"></i></li>
+        </ul>
+        <p class="mat__note">До ~60 °C. Самый дешёвый и точный из простых пластиков, но размягчается на солнце в машине.</p>
+      </article>
+      <article class="mat">
+        <p class="mat__tech">FDM</p>
+        <h3>PETG</h3>
+        <p class="mat__use">Функциональные детали, корпуса, крепления</p>
+        <ul class="mat__spec">
+          <li><span>Жёсткость</span><i style="--v:70%"></i></li>
+          <li><span>Термостойкость</span><i style="--v:55%"></i></li>
+          <li><span>Детализация</span><i style="--v:65%"></i></li>
+        </ul>
+        <p class="mat__note">До ~80 °C. Прочнее и упругее PLA, слегка тянется перед разрушением — не такой хрупкий.</p>
+      </article>
+      <article class="mat">
+        <p class="mat__tech">FDM</p>
+        <h3>ABS</h3>
+        <p class="mat__use">Детали под механическую нагрузку, корпуса приборов</p>
+        <ul class="mat__spec">
+          <li><span>Жёсткость</span><i style="--v:75%"></i></li>
+          <li><span>Термостойкость</span><i style="--v:75%"></i></li>
+          <li><span>Детализация</span><i style="--v:55%"></i></li>
+        </ul>
+        <p class="mat__note">До ~95 °C. Ударопрочный, но печатается с испарениями — нужна вентиляция, поэтому дольше в очереди.</p>
+      </article>
+      <article class="mat">
+        <p class="mat__tech">SLA</p>
+        <h3>Смола стандарт</h3>
+        <p class="mat__use">Миниатюры, мастер-модели, ювелирная детализация</p>
+        <ul class="mat__spec">
+          <li><span>Жёсткость</span><i style="--v:45%"></i></li>
+          <li><span>Термостойкость</span><i style="--v:25%"></i></li>
+          <li><span>Детализация</span><i style="--v:95%"></i></li>
+        </ul>
+        <p class="mat__note">Самая высокая гладкость и детализация, но хрупче любого FDM-пластика — не для нагрузки.</p>
+      </article>
+      <article class="mat">
+        <p class="mat__tech">SLA</p>
+        <h3>Смола Tough</h3>
+        <p class="mat__use">Функциональные прототипы с тонкими стенками</p>
+        <ul class="mat__spec">
+          <li><span>Жёсткость</span><i style="--v:65%"></i></li>
+          <li><span>Термостойкость</span><i style="--v:35%"></i></li>
+          <li><span>Детализация</span><i style="--v:90%"></i></li>
+        </ul>
+        <p class="mat__note">Гладкость смолы + запас прочности ближе к ABS. Дороже стандартной смолы.</p>
+      </article>
+      <article class="mat">
+        <p class="mat__tech">FDM</p>
+        <h3>TPU (гибкий)</h3>
+        <p class="mat__use">Уплотнители, амортизирующие детали, чехлы</p>
+        <ul class="mat__spec">
+          <li><span>Жёсткость</span><i style="--v:15%"></i></li>
+          <li><span>Термостойкость</span><i style="--v:40%"></i></li>
+          <li><span>Детализация</span><i style="--v:50%"></i></li>
+        </ul>
+        <p class="mat__note">Резиноподобный, гнётся без разрушения. Печатается медленно и капризно — срок обычно больше.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ КАЛЬКУЛЯТОР ══════════════════════════ -->
+<section class="section" id="calc">
+  <div class="wrap">
+    <p class="tag">Смета за 10 секунд</p>
+    <h2 class="h2">Прикидочный расчёт — точный после файла</h2>
+    <p class="section__lead">Это ориентировочная оценка по габаритам, не по вашей реальной модели: реальный объём вещи обычно меньше параллелепипеда, который её описывает. Точную смету считаем по присланному файлу — бесплатно.</p>
+
+    <div class="calc">
+      <div class="calc__inputs">
+        <div class="calc__row calc__row--dims">
+          <label>Габариты, мм
+            <span class="calc__dims">
+              <input type="number" id="dimL" value="80" min="1" max="1000" aria-label="Длина, мм"><span>×</span>
+              <input type="number" id="dimW" value="60" min="1" max="1000" aria-label="Ширина, мм"><span>×</span>
+              <input type="number" id="dimH" value="100" min="1" max="1000" aria-label="Высота, мм">
+            </span>
+          </label>
+        </div>
+        <div class="calc__row">
+          <label for="calcMat">Материал</label>
+          <select id="calcMat">
+            <option value="pla">PLA — эконом, для внешнего вида</option>
+            <option value="petg">PETG — прочнее, для функции</option>
+            <option value="abs">ABS — под нагрузку и температуру</option>
+            <option value="resin">Смола стандарт (SLA) — детализация</option>
+            <option value="resinTough">Смола Tough (SLA) — прочность+гладкость</option>
+            <option value="tpu">TPU — гибкий</option>
+          </select>
+        </div>
+        <div class="calc__row">
+          <label for="calcQuality">Качество печати</label>
+          <select id="calcQuality">
+            <option value="draft">Черновое, слой 0.3 мм — быстрее</option>
+            <option value="standard" selected>Стандарт, слой 0.2 мм</option>
+            <option value="fine">Точное, слой 0.1 мм — дольше и детальнее</option>
+          </select>
+        </div>
+        <div class="calc__row">
+          <label for="calcQty">Количество, шт</label>
+          <input type="number" id="calcQty" value="1" min="1" max="500">
+        </div>
+      </div>
+
+      <div class="calc__result" aria-live="polite">
+        <p class="calc__badge">ориентировочно</p>
+        <div class="calc__price" id="calcPrice">от 900 ₽</div>
+        <div class="calc__row2">
+          <div><span class="calc__label">Срок печати</span><span class="calc__value" id="calcDays">2–3 дня</span></div>
+          <div><span class="calc__label">Оценка объёма</span><span class="calc__value" id="calcVolume">≈ 190 см³</span></div>
+        </div>
+        <p class="calc__fine">Плюс доставка СДЭК/Почтой России. Финальная цена — после проверки файла: реальная геометрия и толщина стенок обычно снижают расход материала против оценки по габаритам.</p>
+        <a class="btn btn--fill btn--block" href="#contact">Отправить файл на точный расчёт →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ БИЗНЕСУ И МЕРОПРИЯТИЯМ ══════════════════════════ -->
+<section class="section" id="business">
+  <div class="wrap biz">
+    <div class="biz__copy">
+      <p class="tag">Бизнесу и мероприятиям</p>
+      <h2 class="h2">Крупные объекты и тираж — под ключ</h2>
+      <p class="section__lead">Не только настольные вещи: печатаем крупноформатные объекты и партии на мероприятия, для стендов и офисов. Финальный размер ограничен монтажом, а не столом принтера — крупные формы собираем из печатных сегментов.</p>
+
+      <ol class="biz__cases">
+        <li class="biz__case">
+          <span class="biz__case-n">01</span>
+          <div><h3>Брендированные фигуры и маскоты</h3><p>Ростовые фигуры персонажей и логотипов для стенда, витрины или мероприятия</p></div>
+        </li>
+        <li class="biz__case">
+          <span class="biz__case-n">02</span>
+          <div><h3>Стенды и POS-конструкции</h3><p>Подставки, кассовые зоны, декоративные панели для витрин и бизнес-центров</p></div>
+        </li>
+        <li class="biz__case">
+          <span class="biz__case-n">03</span>
+          <div><h3>Декор и фотозоны для событий</h3><p>Крупные декоративные объекты и инсталляции под тематику конкретного мероприятия</p></div>
+        </li>
+        <li class="biz__case">
+          <span class="biz__case-n">04</span>
+          <div><h3>Увеличенные копии продукта</h3><p>Макет вашего товара или упаковки в разы больше оригинала — для выставки</p></div>
+        </li>
+      </ol>
+
+      <p class="biz__note">Честно: это крашеный пластик (FDM/SLA), не литьё металла — если нужна именно металлическая скульптура, это не к нам. Крупные формы печатаем сегментами и собираем на скрытом каркасе, шов зашкуриваем и красим.</p>
+      <a class="btn btn--fill" href="#contact">Обсудить проект →</a>
+    </div>
+
+    <div class="biz__visualwrap">
+      <figure class="biz__visual">
+        <img src="img/work-bizsculpture.webp" alt="Крупный напечатанный на 3D-принтере геометрический декоративный объект в холле бизнес-центра" loading="lazy">
+        <figcaption>Визуализация масштаба — крупный объект в лобби</figcaption>
+      </figure>
+      <p class="biz__visualnote">AI-визуализация возможного масштаба и стиля, не фото реального объекта. Точные размеры, материал и сроки крупных проектов обсуждаем индивидуально.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ ГАЛЕРЕЯ ══════════════════════════ -->
+<section class="section section--sunk" id="gallery">
+  <div class="wrap">
+    <p class="tag">Реальные работы</p>
+    <h2 class="h2">Не рендеры — настоящая печать</h2>
+    <p class="section__lead">Ниже — подлинные фото и видео уже напечатанных вещей, без обработки. Атмосферные ролики выше (сопло, вращение) — иллюстрация процесса, а не съёмка конкретного цеха.</p>
+
+    <div class="gallery">
+      <figure class="gallery__item gallery__item--video">
+        <video src="video/real-sneaker.webm" poster="img/gallery-sneaker-poster.jpg" muted loop playsinline preload="none" controls></video>
+        <figcaption><b>Подошва кроссовка на заказ</b><span>FDM, реальная съёмка процесса печати</span></figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="img/gallery-bust-1.webp" alt="Именной портретный бюст, напечатанный на FDM-принтере, вид спереди" loading="lazy">
+        <figcaption><b>Портретный бюст по фото</b><span>PLA, слой 0.2 мм, реальное фото</span></figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="img/gallery-bust-2.webp" alt="Тот же бюст со спины — видна текстура печати слоями" loading="lazy">
+        <figcaption><b>Тот же бюст, со спины</b><span>Видна честная текстура слоёв — без сглаживания</span></figcaption>
+      </figure>
+      <figure class="gallery__item gallery__item--placeholder">
+        <div class="gallery__soon">[PHOTO_REAL_NEEDED]</div>
+        <figcaption><b>Ваш заказ — здесь</b><span>Пополняем галерею реальными работами по мере печати</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ ВОПРОСЫ ══════════════════════════ -->
+<section class="section" id="faq">
+  <div class="wrap faq">
+    <p class="tag">Вопросы</p>
+    <h2 class="h2">Частые вопросы</h2>
+    <div class="faq-list">
+      <details>
+        <summary>Какие файлы вы принимаете?</summary>
+        <p>STL, OBJ, STEP — подойдёт любой стандартный формат 3D-модели. Готовой модели нет? Пришлите чертёж, фото образца или просто описание через форму ниже — поможем оцифровать за отдельную смету.</p>
+      </details>
+      <details>
+        <summary>У меня только фото или идея, а не 3D-модель — это подойдёт?</summary>
+        <p>Да, именно для этого в форме заявки есть поле «прикрепить фото» — приложите снимок образца или референс и опишите, что хотите получить, своими словами. Мы свяжемся, уточним детали и подскажем, реально ли это напечатать и что для этого нужно.</p>
+      </details>
+      <details>
+        <summary>Сколько это будет стоить?</summary>
+        <p>Калькулятор выше даёт ориентировочную цену по габаритам за несколько секунд. Точная смета — после того, как посмотрим присланный файл: настоящая геометрия и толщина стенок обычно снижают расход материала против оценки по параллелепипеду.</p>
+      </details>
+      <details>
+        <summary>Какой материал выбрать?</summary>
+        <p>Для сувенира или декора обычно достаточно PLA. Для детали, которая должна держать нагрузку или тепло — PETG или ABS. Для миниатюр и ювелирной детализации — смола (SLA). Полное честное сравнение — в разделе «Материалы» выше, а если не уверены — напишите, что печатаете, и мы подскажем сами.</p>
+      </details>
+      <details>
+        <summary>Можно напечатать тираж — несколько одинаковых штук?</summary>
+        <p>Да, количество указывается прямо в калькуляторе: с второй штуки действует скидка на материал. Для крупных тиражей — напишите через форму, посчитаем цену индивидуально.</p>
+      </details>
+      <details>
+        <summary>А крупный объект больше стола принтера — реально?</summary>
+        <p>Да, для мероприятий и бизнес-центров печатаем сегментами и собираем на скрытом каркасе — швы зашкуриваем и красим. Это крашеный пластик (FDM/SLA), а не литьё металла: подробности и примеры — в разделе «Бизнесу» выше. Такие проекты считаем индивидуально, не по калькулятору.</p>
+      </details>
+      <details>
+        <summary>Сколько занимает печать и доставка?</summary>
+        <p>Печать — от 2 дней в зависимости от размера, материала и тиража, калькулятор выше даёт ориентировочный срок. Дальше — самовывоз по договорённости или отправка СДЭК/Почтой России по всей стране, это время добавляется отдельно.</p>
+      </details>
+      <details>
+        <summary>Обязательно звонить, чтобы оставить заявку?</summary>
+        <p>Нет. В форме ниже можно выбрать Telegram вместо телефона — просто оставьте юзернейм или ссылку на профиль, ответим туда же.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ CTA / КОНТАКТЫ ══════════════════════════ -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="cta">
+      <div>
+        <p class="tag">Начать</p>
+        <h2 class="h2">Пришлите файл — посчитаем точно</h2>
+        <p class="section__lead">Отвечаем в течение рабочего дня. Смета — бесплатно и без обязательств.</p>
+        <div class="cta__reel">
+          <video poster="video/vase-orbit-poster.jpg" width="640" height="360" muted loop playsinline preload="none" aria-hidden="true">
+            <source src="video/vase-orbit.webm" type="video/webm">
+            <source src="video/vase-orbit.mp4" type="video/mp4">
+          </video>
+          <span class="cta__reel-tag">иллюстрация · Kling AI</span>
+        </div>
+      </div>
+      <form class="form" name="lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data">
+        <div class="form__switch" role="radiogroup" aria-label="Как с вами связаться">
+          <input type="radio" name="contactMethod" id="cmTg" value="tg" checked>
+          <label for="cmTg">Telegram</label>
+          <input type="radio" name="contactMethod" id="cmPhone" value="phone">
+          <label for="cmPhone">Телефон</label>
+        </div>
+        <input type="text" name="telegram" id="fContact" placeholder="@username или ссылка на профиль" autocomplete="off" required>
+
+        <textarea name="comment" id="fWhat" placeholder="Что хотите напечатать — деталь, сувенир, идея по фото, материал, тираж" rows="3" required></textarea>
+
+        <label class="form__file" for="fFile">
+          <input type="file" name="photo" id="fFile" accept="image/*,.stl,.obj,.step,.stp,.pdf" multiple hidden>
+          <span class="form__file-btn">Прикрепить фото или файл</span>
+          <span class="form__file-hint" id="fFileHint">Фото образца, эскиз или готовая 3D-модель — необязательно, но поможет посчитать точнее</span>
+        </label>
+
+        <input type="text" name="name" placeholder="Как вас зовут (необязательно)" autocomplete="name">
+
+        <button type="submit">Отправить заявку</button>
+        <p class="form__note">Ответим туда, куда укажете — в Telegram или по телефону. Обычно в течение рабочего дня.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div>
+      <div class="foot__brand">
+        <img src="img/logo-mark.svg" alt="" aria-hidden="true">
+        <span>СЛОЙ</span>
+      </div>
+      <p class="foot__addr">3D-печать на заказ · Москва, отправка по всей России</p>
+    </div>
+    <div class="foot__contacts">
+      <a href="tel:+74951234567">+7 495 123-45-67</a>
+      <a href="mailto:hello@sloy.studio">hello@sloy.studio</a>
+    </div>
+  </div>
+  <div class="wrap foot__bottom">© 2026 СЛОЙ · Атмосферные видео — иллюстрация процесса (Kling AI), не съёмка цеха. Фото работ в галерее — настоящие.</div>
+</footer>
+
+<!-- Three.js r150 UMD, версия зафиксирована. Deprecated-предупреждение в консоли — от самого
+     three.js (просит ES Modules), не баг: UMD-сборка держит глобальный THREE без бандлера. -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.150.0/three.min.js"></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
